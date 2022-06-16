@@ -15,6 +15,7 @@ class TaskRepositoryImpl implements ITaskRepository {
   Stream<List<Task>> getAllTask() {
     return FirebaseFirestore.instance
         .collection(COLLECTION_NAME)
+        .orderBy("createdDate", descending: true)
         .snapshots()
         .map((snapshot) =>
             snapshot.docs.map((doc) => Task.fromJson(doc.data())).toList());

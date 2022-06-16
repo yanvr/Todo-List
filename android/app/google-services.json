@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "770941404653",
+    "project_id": "todo-list-3c498",
+    "storage_bucket": "todo-list-3c498.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770941404653:android:22bb7cbe5e9055988453e4",
+        "android_client_info": {
+          "package_name": "com.fatec.todo_list_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770941404653-tk2o7rlegscdsqmr8j8nhsk1ou0nni4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4nbetvDOBtFPVUR747gLLRo80GMI7D_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770941404653-tk2o7rlegscdsqmr8j8nhsk1ou0nni4p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
